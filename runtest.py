@@ -3,9 +3,9 @@ import json
 
 if __name__ == '__main__':
     data = {
-    "idCardNumber": "6275980334017200691"
+    "xx": "xx"
     }
-    url = 'https://api.family.xxx.cn/tier/get'
+    url = 'https://api.xx.xxx.cn/tier/get'
     #head = signreq(data,url)
     head = {}
     r = requests.post(url, data=json.dumps(data), headers=head, verify=False)
