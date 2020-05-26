@@ -23,6 +23,8 @@ def request(flow):
     #print(new_headers)
     for k,v in new_headers.items():
       req.headers[k] = v 
+    
+    req.content = json.dumps(data).encode()
 
 
 def response(flow):
